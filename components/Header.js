@@ -13,7 +13,7 @@
 
 function Header() {
     
-    let mainDiv = document.createElement('header')
+    let mainDiv = document.createElement('div')
     let spanDate = document.createElement('span')
     let h1Lambda = document.createElement('h1')
     let spanTemp = document.createElement('span')
@@ -33,5 +33,5 @@ function Header() {
     return mainDiv
 }
 
-let mainBody = document.querySelector('body')
+const mainBody = document.querySelector('.header-container')
 mainBody.appendChild(Header())
