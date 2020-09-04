@@ -26,8 +26,10 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
-1. What is the DOM?
+****answered questions in stand up realtime***
 
+1. What is the DOM?
+    
 2. What is an event?
 
 3. What is an event listener?
