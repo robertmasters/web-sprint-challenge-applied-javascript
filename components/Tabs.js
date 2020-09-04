@@ -16,10 +16,20 @@ axios.get('https://lambda-times-api.herokuapp.com/topics')
 .then(good => {
     // console.log(good.data.topics)
     const topicsArray = good.data.topics
+    topicsArray.forEach(element => {
+        const divy = document.createAttribute('div')
+        divy.classList.add('tab')
+        divy.textContent = element
+        
+    });
+
+
 })
 .catch(bad =>{
     console.log(bad)
     debugger
 })
 )
+
+
 
